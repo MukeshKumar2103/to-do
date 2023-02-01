@@ -108,3 +108,66 @@ input:focus,
 button:focus {
   outline: none;
 }
+
+@media (max-width: 640px) {
+  .app-wrapper {
+    min-width: 350px;
+    min-height: 550px;
+    padding: 15px;
+  }
+
+  .header {
+    margin: 20px 0;
+  }
+
+  .task-input {
+    width: 220px;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .button-add {
+    width: 50px;
+    font-size: 12px;
+  }
+
+  .list-item {
+    margin: 15px 0;
+    padding: 8px;
+    max-height: 20px;
+  }
+
+  .button-complete,
+  .button-delete,
+  .button-edit {
+    font-size: 16px;
+  }
+
+  .button-complete {
+    color: #ff6c6c;
+    margin-right: 10px;
+  }
+  .complete1 {
+    color: lightseagreen;
+  }
+  .button-edit {
+    color: #e2d029;
+    margin-right: 10px;
+  }
+
+  .button-delete {
+    color: lightseagreen;
+  }
+
+  .complete {
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: #ff6c6c;
+    opacity: 0.6;
+  }
+
+  .list {
+    width: 210px;
+    font-size: 14px;
+  }
+}
